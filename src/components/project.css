@@ -1,0 +1,132 @@
+.project {
+    background-color: rgba(240, 248, 255, 0.664);
+    margin: 40px auto 0;
+    padding: 50px;
+}
+
+.cards {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 30px 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+#header {
+    /* background-color: aliceblue; */
+    width: max-content;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.p {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: 200;
+    /* border: 1px solid black; */
+    padding: 40px 0 0;
+    color: whitesmoke;
+
+    text-shadow: 2px 2px 3px rgb(9, 91, 94);
+}
+
+p {
+    font-size: 25px;
+}
+
+.live {
+    padding: 15px 35px;
+    margin: 50px;
+    background-image: linear-gradient(to right, rgb(237, 248, 248), rgb(210, 211, 210));
+    color: rgb(105, 105, 105);
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.live:hover {
+    box-shadow: 4px 14px 24px rgb(64, 93, 94);
+}
+
+.git {
+    padding: 15px 35px;
+    margin: 50px;
+    background-color: rgb(251, 252, 251);
+
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: rgb(51, 51, 51);
+    }
+}
+
+.git:hover {
+    transition: 1s;
+    background-color: rgb(15, 121, 47);
+    box-shadow: 2px 2px 35px rgb(31, 36, 59);
+
+    a {
+        color: white;
+    }
+}
+
+.linkdin {
+    padding: 5px 35px;
+    margin: 50px;
+    background-color: aliceblue;
+    color: rgb(105, 105, 105);
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: rgb(66, 66, 66);
+    }
+}
+
+.linkdin:hover {
+    transition: 1s;
+    background-color: rgb(22, 109, 223);
+    box-shadow: 2px 2px 35px rgb(31, 36, 59);
+
+    a {
+        color: white;
+    }
+}
+
+.mail {
+    padding: 15px 35px;
+    margin: 50px;
+    background-image: linear-gradient(to right, rgb(237, 248, 248), rgb(210, 211, 210));
+    color: rgb(105, 105, 105);
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}

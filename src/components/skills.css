@@ -1,0 +1,136 @@
+.skills {
+    background-color: rgba(240, 248, 255, 0.712);
+    display: flex;
+    margin: 30px auto;
+    width: 70%;
+    padding: 2%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 0;
+}
+
+.web {
+    background-image: linear-gradient(rgb(3, 168, 155), rgb(0, 153, 255));
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.programming {
+    height: max-content;
+    width: 300px;
+    background-image: linear-gradient(rgba(3, 168, 154, 0.432), rgba(0, 255, 115, 0.397));
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+.softskills {
+    height: max-content;
+    background-image: linear-gradient(rgb(3, 168, 155), cyan);
+    padding: 20px;
+    color: whitesmoke;
+    width: 300px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px auto;
+    text-shadow: 1px 1px 3px cadetblue;
+
+}
+
+.skill {
+    margin: 10px auto;
+}
+
+#html {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/html.png);
+}
+
+#css {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/css.png);
+}
+
+#js {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/js.png);
+}
+
+#react {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/react.png);
+}
+
+#java {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/java.png);
+}
+
+#lp {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/lp.png);
+}
+
+#lt {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/lt.png);
+}
+
+#pb {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/images/pb.png);
+}
+
+.skills:hover {
+    transition: 1s;
+    box-shadow: 10px 14px 54px rgb(53, 105, 103);
+
+    .web {
+        transition: 1s;
+        box-shadow: 10px 14px 54px cadetblue;
+    }
+
+    .programming {
+        transition: 1s;
+        box-shadow: 10px 14px 54px cadetblue;
+    }
+
+    .softskills {
+        transition: 1s;
+        box-shadow: 10px 10px 50px cadetblue;
+    }
+}

@@ -1,0 +1,37 @@
+.hero {
+    /* background-color: salmon; */
+    /* color: white; */
+    height: 200px;
+    width: 55%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    transition: 1s;
+    background-color: rgba(245, 245, 245, 0.411);
+    border-radius: 120px;
+}
+
+.face {
+    height: 200px;
+    width: 200px;
+    background-image: url(../assets/images/hero.png);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 14px rgb(53, 77, 78);
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 200;
+    /* border: 1px solid black; */
+    padding: 40px 0 0;
+    color: whitesmoke;
+
+    text-shadow: 2px 2px 3px rgb(9, 91, 94);
+}
+
+.hero:hover {
+    box-shadow: 4px 14px 24px rgb(64, 93, 94);
+}
