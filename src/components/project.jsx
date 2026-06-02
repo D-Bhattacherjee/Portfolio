@@ -6,7 +6,7 @@ export default function Projects() {
             <div className="cards">
                 <div className="p">
                     <p><span id='title'>GitHub Profile Finder </span>- A project made of HTML CSS and JAVASCRIPT | user can use it for searching people on GitHub by their User Name
-                        <button className="live" title='See it live in next tab'><a href="../../public/projects/git-profile-finder/index.html" target="_blank" rel="noopener noreferrer">Live view</a></button></p>
+                        <button className="live" title='See it live in next tab'><a href="../../public/projects/git-profile-finder/index.html" target="_blank" >Live view</a></button></p>
                 </div>
 
             </div>
